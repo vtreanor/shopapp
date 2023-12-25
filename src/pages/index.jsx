@@ -11,7 +11,7 @@ const Index = () => {
       </div>
 
         <div className='w-[25%] flex flex-col items-center pl-5  '>
-          <h1>Junkshop</h1>          
+          <h1>The Junkyard</h1>          
           <ul className='text-left font-[600] pt-0 text-[20px] list-inside'>
             <li className='py-3 border-brandGreen border-4 pl-4 rounded-[20px] mt-6 '>Record all important contact details</li>
             <li className='py-3 border-brandGreen border-4 pl-4 rounded-[20px] mt-6 '>Unlimited contacts</li>
