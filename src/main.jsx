@@ -5,6 +5,7 @@ import { BrowserRouter, RouterProvider, createBrowserRouter } from "react-router
 
 import App from './App.jsx'
 import Index from './pages/index.jsx'
+import DefaultPage from './pages/DefaultPage.jsx'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -15,12 +16,12 @@ const router = createBrowserRouter([
     children: [
       {index: true, element: <Index />},
 
-      // {
-      //   path: "note/create/:id",
-      //   element: <NoteCreate />,
-      //   loader: noteCreateLoader,
-      //   action: newNoteAction,
-      // },    
+      {
+        path: "defaultPage",
+        element: <DefaultPage />,
+        // loader: noteCreateLoader,
+        // action: newNoteAction,
+      },    
     ],
   },
 ])

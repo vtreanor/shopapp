@@ -16,7 +16,7 @@ function App() {
           <Nav />
 
           {/* content section */}
-          <div className='pt-5'>
+          <div className='pt-5 contentSection'>
             <Outlet />
           </div>
 

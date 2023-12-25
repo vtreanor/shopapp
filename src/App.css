@@ -22,6 +22,26 @@
   background-color: transparent;
 }
 
+.mainContent{
+  align-self: stretch; 
+  flex: 1 1 0; 
+  flex-direction: column;
+  padding: 0px; 
+  justify-content:  flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex;
+  background-color: transparent;
+}
+
+.contentSection{
+  padding: 10px;;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 20px;
+  /* background: var(--colors-grey-56, #8F8F8F); */
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

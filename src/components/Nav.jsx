@@ -14,9 +14,9 @@ const Nav = () => {
         </span>
 
                 
-        <span className='mx-3'><Link to={`/contacts`}>Contacts</Link></span>
-        <span className='mx-3'><Link to={`/examplePage1`}>default</Link></span>
-        <span className='mx-3'><Link to={`/newcontactform`}>New Contact</Link></span>
+        <span className='mx-3'><Link to={`/defaultPage`}>Junk</Link></span>
+        <span className='mx-3'><Link to={`/defaultPage`}>About</Link></span>
+        <span className='mx-3'><Link to={`/defaultPage`}>Contact</Link></span>
         
       </div>
     </div>
